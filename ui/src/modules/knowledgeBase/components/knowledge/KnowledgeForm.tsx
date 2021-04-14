@@ -178,7 +178,7 @@ class KnowledgeForm extends React.Component<Props, State> {
           </FormGroup>
 
           <FormGroup>
-            <Info>
+            <Info bordered={false} iconShow={true} type={'info'}>
               {__(
                 'Paste the tag below where you want erxes knowledgebase to appear'
               )}

@@ -435,7 +435,7 @@ class InstallCode extends React.PureComponent<Props, State> {
   ) {
     return (
       <Script>
-        <Info>
+        <Info type={'info'}>
           {__(description)}
           {extraContent && this.renderDescription(currentTab)}
         </Info>
